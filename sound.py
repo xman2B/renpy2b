@@ -118,7 +118,7 @@ def twob_set_mode(mode):
     
 def save_state():
     global last_states
-    print("Save State")
+    #print("Save State")
     state = twob_get_state()
     last_states[state["mode"]] = dict(state)
 
